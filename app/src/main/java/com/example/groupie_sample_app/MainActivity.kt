@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val groupAdapter = GroupAdapter<ViewHolder>()
         findViewById<RecyclerView>(R.id.recycler_view).adapter = groupAdapter
 
-        val items = listOf("りんご", "みかん", "ぶどう")
+        val items = listOf("りんご🍎", "みかん🍊", "ぶどう🍇", "すいか🍉", "もも🍑", "ばなな🍌")
         items.forEach { item ->
             groupAdapter.add(ListItem(item))
         }
